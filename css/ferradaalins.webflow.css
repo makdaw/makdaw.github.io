@@ -567,7 +567,7 @@ h1 {
   color: #333;
   text-align: center;
   letter-spacing: 2px;
-  margin-top: 89px;
+  margin-top: 8px;
   margin-bottom: 56px;
   padding-bottom: 0;
   font-family: Changa One, Impact, sans-serif;
@@ -578,6 +578,12 @@ h1 {
 .heading-5.via-title {
   color: #fff;
   letter-spacing: 2px;
+}
+
+.heading-5.small {
+  color: #adcd3b;
+  margin-bottom: 24px;
+  font-size: 34px;
 }
 
 .tram-text {
@@ -794,6 +800,12 @@ h1 {
   display: flex;
 }
 
+.material-wrapper.contact-wrapper {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+}
+
 .material-item {
   max-width: 180px;
   opacity: 1;
@@ -816,11 +828,20 @@ h1 {
   display: flex;
 }
 
+.material-item.contact-item {
+  max-width: 160px;
+  min-width: 160px;
+}
+
 .material-img {
   width: 100px;
   text-align: left;
   margin-bottom: 12px;
   padding-top: 31px;
+}
+
+.material-img.contact-img {
+  line-height: 10px;
 }
 
 .material-title {
@@ -831,14 +852,18 @@ h1 {
   font-size: 18px;
 }
 
-.text-span-8 {
+.material-title.contact-title, .text-span-8 {
   color: #adcd3b;
 }
 
 .material-text {
-  color: #fff;
+  color: #333;
   text-align: center;
   font-family: Exo, sans-serif;
+}
+
+.material-text.contact-text {
+  color: #333;
 }
 
 .material-price {
@@ -3439,7 +3464,7 @@ h1 {
 
   .div-block-52 {
     width: 100%;
-    background-image: url('../images/Untitled-min.png');
+    background-image: url('../images/Untitled-min1.png');
     background-position: 50%;
     background-size: cover;
     margin-top: 183px;
